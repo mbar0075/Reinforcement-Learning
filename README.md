@@ -12,7 +12,7 @@
 In this completed project, the primary objective was to implement a **simplified Blackjack environment** and utilize it for training an agent using various **Reinforcement Learning** algorithms. The selection of Blackjack as the game of choice was driven by its simplicity, which lends itself well to the application and exploration of reinforcement learning techniques.
 
 <p align='center'></br>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Blackjack_board.JPG" alt="Blackjack Game" style="display: block; margin: 0 auto; width: 40%; height: auto;">
+  <img src="https://github.com/mbar0075/Reinforcement-Learning/assets/103250564/1c60e38f-f0ba-4997-9471-cb8c175384bf" alt="Blackjack Game" style="display: block; margin: 0 auto; width: 40%; height: auto;">
 </p></br>
 
 The project involved developing a representation of the Blackjack environment and implementing four different Reinforcement Learning algorithms to train the agent. The game of Blackjack utilized a standard deck of 52 cards and featured two key entities: the player and the dealer. At the beginning of each game, the player received two cards, while the dealer received one. The objective for both the player and the dealer was to achieve a total card value as close to 21 as possible without surpassing it. The player and the dealer had the option to either "stand" (stop taking cards) or "hit" (draw an additional card from the deck). The game concluded when both the player and the dealer chose to stand. The player with the highest total card value, not exceeding 21, was declared the winner. If either the player or the dealer exceeded 21 points, they lost the game, resulting in a win for the opposing player. The total value of a hand was determined by summing the individual card values.
@@ -25,9 +25,8 @@ To train the agent, the following four algorithms were successfully implemented:
 **4. Double Q-Learning Off-Policy Control** <br>
 
 <p align='center'></br>
-  <img src="https://assets-global.website-files.com/621e749a546b7592125f38ed/6231efbede9e9af7f611ff68_fig%201.gif" alt="RL Interaction Loop" style="display: block; margin: 0 auto; width: 70%; height: auto;">
+  <img src="https://github.com/mbar0075/Reinforcement-Learning/assets/103250564/3703eea4-14d4-4216-9ac5-43f4fbc519bc" alt="RL Interaction Loop" style="display: block; margin: 0 auto; width: 70%; height: auto;">
 </p></br>
-
 
 
 Throughout the project, these algorithms were applied and evaluated in the Blackjack environment. The implementation involved training the agent to make optimal decisions based on the current state and available actions. The Reinforcement Learning algorithms learned to balance exploration and exploitation to maximize the expected rewards over time.
