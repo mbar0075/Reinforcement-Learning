@@ -31,6 +31,15 @@ To train the agent, the following four algorithms were successfully implemented:
 
 Throughout the project, these algorithms were applied and evaluated in the Blackjack environment. The implementation involved training the agent to make optimal decisions based on the current state and available actions. The Reinforcement Learning algorithms learned to balance exploration and exploitation to maximize the expected rewards over time.
 
+## Evaluation:
+The evaluation of the aformentioned algorithms revealed some interesting insights. The different configurations had minimal impact on the number of unique states explored, indicating consistency across the algorithms. However, there were variations in the dealer advantage, with Monte Carlo exhibiting the highest advantage and SARSAMAX showing the lowest. This aligns with the overall win rates observed, where SARSAMAX performed better and Monte Carlo performed comparatively worse.
+
+Additionally, it was noted that the convergence of the algorithms varied across different configurations. The last configuration exhibited the slowest convergence, attributed to the gradual decrease in exploration rate. In contrast, the other configurations demonstrated sudden convergence, likely due to a sharp transition to a high exploitation rate. This highlights the influence of exploration and exploitation rates on the convergence behavior of the algorithms.
+
+Regarding Double Q-Learning, it is known to excel in noisy and uncertain environments, which was not the case in the Blackjack scenario analyzed. Consequently, the benefits of implementing Double Q-Learning in this specific problem were not prominent, and its performance was slightly inferior to standard Q-Learning. Both algorithms generally converge to the same optimum, and due to the simplicity of the problem, the advantages of Double Q-Learning were not clearly observed. However, there were instances where Double Q-Learning outperformed Q-Learning, indicating its potential in certain cases.
+
+Nevertheless, in this particular study, it was observed that Double Q-Learning performed better than Q-Learning, achieving a lower dealer advantage of **0.008 (most optimal advantage)** compared to Q-Learning's 0.011.
+
 Overall, the successful implementation and evaluation of the four Reinforcement Learning algorithms in the Blackjack environment have provided valuable insights into the agent's learning capabilities and its ability to make optimal decisions based on the given state and available actions. The project demonstrates the effectiveness and applicability of Reinforcement Learning techniques in training agents to play games and make informed decisions.
 
 ## Deliverables:
