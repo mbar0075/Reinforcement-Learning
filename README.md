@@ -40,6 +40,11 @@ Regarding Double Q-Learning, it is known to excel in noisy and uncertain environ
 
 Nevertheless, in this particular study, it was observed that Double Q-Learning performed better than Q-Learning, achieving a lower dealer advantage of **0.008 (most optimal advantage)** compared to Q-Learning's 0.011.
 
+<p align='center'>
+  <img src="https://github.com/mbar0075/Reinforcement-Learning/assets/103250564/c6a843ac-3b7c-4cb9-bf8f-b00bfb2233fb" style="display: block; margin: 0 auto; width: 43%; height: auto;">
+  <img src="https://github.com/mbar0075/Reinforcement-Learning/assets/103250564/57abe88c-9f46-4cbf-9e55-d5c892ab286c" style="display: block; margin: 0 auto; width: 40%; height: auto;">
+</p>
+
 Overall, the successful implementation and evaluation of the four Reinforcement Learning algorithms in the Blackjack environment have provided valuable insights into the agent's learning capabilities and its ability to make optimal decisions based on the given state and available actions. The project demonstrates the effectiveness and applicability of Reinforcement Learning techniques in training agents to play games and make informed decisions.
 
 ## Deliverables:
