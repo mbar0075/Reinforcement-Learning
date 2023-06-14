@@ -48,5 +48,5 @@ Nevertheless, in this particular study, it was observed that Double Q-Learning p
 Overall, the successful implementation and evaluation of the four Reinforcement Learning algorithms in the Blackjack environment have provided valuable insights into the agent's learning capabilities and its ability to make optimal decisions based on the given state and available actions. The project demonstrates the effectiveness and applicability of Reinforcement Learning techniques in training agents to play games and make informed decisions.
 
 ## Deliverables:
-The repository includes a Blackjack environment with implementations of different RL algorithms and configurations<br />
+**The repository includes a Blackjack environment with implementations of different RL algorithms and configurations** <br />
  
